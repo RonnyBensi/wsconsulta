@@ -1,4 +1,4 @@
-package rbensi.com.br;
+package com.br.rbensi;
 
 
 import java.util.concurrent.Executor;
@@ -18,13 +18,13 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 
 
-public class app {
+public class WSConsulta {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	    System.setProperty("server.servlet.conext-path","/teste-ec");
-        SpringApplication.run(app.class, args);
+        SpringApplication.run(WSConsulta.class, args);
         
         System.out.println("MDS");
         

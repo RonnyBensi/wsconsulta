@@ -1,4 +1,4 @@
-package rbensi.com.br.api;
+package com.br.rbensi.api;
  
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,7 +12,7 @@ import io.swagger.annotations.Api;
 @RequestMapping(value = "/")
 @Api(value = "/", description = "Teste")
 
-public class webserviceapi {
+public class webServiceApi {
 
 
 	

@@ -1,4 +1,4 @@
-package rbensi.com.br;
+package com.br.rbensi;
  
 
 import org.springframework.context.annotation.Bean;
@@ -19,7 +19,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("rbensi.com.br"))
+				.apis(RequestHandlerSelectors.basePackage("com.br.rbensi"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(apiInfo());
